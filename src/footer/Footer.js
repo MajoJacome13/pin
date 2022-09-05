@@ -8,7 +8,7 @@ function Footer() {
         <div className="container">
             <div className="row justify-content-md-center">
                 <div className="col-md-6">
-                    2020 © All rights reserved.
+                    2022 © All rights reserved.
                 </div>
                 <div className="col-md-6 text-right">
                     <img src={fLogo}/>
