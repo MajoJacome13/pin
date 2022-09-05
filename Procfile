@@ -1,1 +1,1 @@
-web: App.js
+web: node index.js
