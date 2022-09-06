@@ -33,7 +33,7 @@ constructor(props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(this.state)
     };
-    fetch('http://127.0.0.1:8000/api/contactus', requestOptions)
+    fetch('https://pin-backend-web.herokuapp.com/api/contactus', requestOptions)
         .then(response => {alert('Se envio tu mensaje exitosamente!')})
         // .then(data => this.setState({ postId: data.id }));
     console.log(this.state);
